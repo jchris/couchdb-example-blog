@@ -22,6 +22,8 @@ git push neworigin MYTOPICBRANCH
 If you have been working on "master" you'll probably need to branch it to another name before you can push.
 
 Once you have it in your new github repo, you can do a fresh git-clone to 
-get the new codes, and then maybe merge your topic branch into your master, if you like. Once all that is done, you can delete your old "couchdb-example-blog" fork.
+get the new codes, and then maybe merge your topic branch into your master, 
+if you like. Once all that is done, you can delete your old
+"couchdb-example-blog" fork.
 
 Thanks for the patience.
