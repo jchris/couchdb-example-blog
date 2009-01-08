@@ -14,11 +14,14 @@ First, "fork" the new Sofa repo on github, then in your newly old "couchdb-examp
 
 git remote add neworigin git@github.com:THISISYOU/sofa.git
 
-And to get your work into the new repo, run:
+And to get your work into the new repo, run (from your old "example blog"
+local repo):
 
-git push neworigin mytopicbranch
+git push neworigin MYTOPICBRANCH
 
 If you have been working on "master" you'll probably need to branch it to another name before you can push.
 
 Once you have it in your new github repo, you can do a fresh git-clone to 
-get the new codes, and then maybe merge your topic branch into your master, if you like.
+get the new codes, and then maybe merge your topic branch into your master, if you like. Once all that is done, you can delete your old "couchdb-example-blog" fork.
+
+Thanks for the patience.
